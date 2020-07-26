@@ -13,7 +13,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("hello")
+    @GetMapping("/hello")
     public String hello(){
         return "hello springCloud+springBoot";
     }
@@ -25,7 +25,7 @@ public class UserController {
         return user;
     }
 
-    @RequestMapping(value="queryAll",method = {RequestMethod.GET})
+    @RequestMapping(value="/queryAll",method = {RequestMethod.GET})
     @ResponseBody
     public List<User> queryAll(){
         return this.userService.findAll();
