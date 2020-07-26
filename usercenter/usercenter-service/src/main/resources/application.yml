@@ -5,7 +5,7 @@ server:
   port: 8090
 spring:
   application:
-    name: alltest
+    name: usercenter
   datasource:
     url: jdbc:mysql://39.99.173.233:3306/homework?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8
     username: root
