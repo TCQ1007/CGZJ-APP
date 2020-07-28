@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<!--namespace映射文件和接口的调用关系-->
+<mapper namespace="com.cgzj.mapper.ExamMapper">
+    <!--id:接口中的方法名 resultType:返回值类型 parameterType：参数类型-->
+    <select id="queryAllExams" resultType="com.cgzj.pojo.Exam">
+        select * from exam
+    </select>
+
+    <select id="queryAllExamsBySid" resultType="com.cgzj.pojo.Exam" parameterType="java.lang.Integer">
+        select * from exam where sid = #{sid}
+    </select>
+
+    <select id="getExamInfo" resultType="com.cgzj.pojo.Exam" parameterType="java.lang.Integer">
+        select * from exam where eid = #{eid}
+    </select>
+
+<!--    <select id="findById" resultType="com.example.springboottest.domain.User" parameterType="java.lang.Integer">-->
+<!--        select * from u where id=#{id}-->
+<!--    </select>-->
+
+<!--    <select id="findByName" resultType="com.example.springboottest.domain.User" parameterType="java.lang.String">-->
+<!--        select * from u where username=#{name}-->
+<!--    </select>-->
+
+<!--    <delete id="deleteById" parameterType="java.lang.Integer">-->
+<!--        delete from u where id=#{id}-->
+<!--    </delete>-->
+
+<!--    <insert id="insert" parameterType="com.example.springboottest.domain.User">-->
+<!--        insert into u (id, username) values (#{id}, #{username})-->
+<!--    </insert>-->
+
+<!--    <update id="update" parameterType="com.example.springboottest.domain.User">-->
+<!--        update u set username=#{username} where id = #{id}-->
+<!--    </update>-->
+</mapper>
