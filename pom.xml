@@ -8,12 +8,18 @@
     <artifactId>CGZJAPP</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
 
+    <modules>
         <module>cloud-registry</module>
         <module>gateway</module>
         <module>All-Test</module>
+        <module>usercenter</module>
+        <module>course-provider</module>
+        <module>topic-provider</module>
+        <module>chat-provider</module>
+
     </modules>
+
     <!--引入springcloud基础配置-->
     <parent>
         <groupId>org.springframework.boot</groupId>
