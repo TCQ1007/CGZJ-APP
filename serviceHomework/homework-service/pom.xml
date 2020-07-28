@@ -29,7 +29,7 @@
         <dependency>
             <groupId>com.cdut</groupId>
             <version>1.0-SNAPSHOT</version>
-            <artifactId>AllTest-interface</artifactId>
+            <artifactId>homework-interface</artifactId>
         </dependency>
         <!--mysql驱动-->
         <dependency>
@@ -37,7 +37,7 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.32</version>
         </dependency>
-        <!--        连接池管理mysql的连接-->
+        <!--连接池管理mysql的连接-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
@@ -50,11 +50,11 @@
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>1.1.1</version>
         </dependency>
-        <dependency>
-            <groupId>commons-codec</groupId>
-            <artifactId>commons-codec</artifactId>
-            <version>1.6</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>commons-codec</groupId>-->
+<!--            <artifactId>commons-codec</artifactId>-->
+<!--            <version>1.6</version>-->
+<!--        </dependency>-->
     </dependencies>
 
 </project>
