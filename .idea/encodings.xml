@@ -7,18 +7,26 @@
     <file url="file://$PROJECT_DIR$/All-Test/AllTest-interface/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/All-Test/AllTest-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/All-Test/AllTest-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/chat-provider/chat-interface/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/chat-provider/chat-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat-provider/chat-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat-provider/chat-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-registry" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-registry/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/course-provider/course-interface/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/course-provider/course-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/course-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/course-provider/course-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/course-provider/course-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/course-provider/course-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/topic-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/topic-provider/topic-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/topic-provider/topic-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/topic-provider/topic-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/topic-provider/topic-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usercenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usercenter/usercenter-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usercenter/usercenter-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/usercenter/usercenter-service/src/main/java" charset="UTF-8" />
   </component>
 </project>
