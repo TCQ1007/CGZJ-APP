@@ -7,9 +7,11 @@ zuul:
   prefix: /api
   routes:
     alltest: /All-Test/**
-    usercenter: /usercenter/**
-    chat-provider: /chat-provider/**
-    topicprovider: /topicprovider/**
+    serviceChat: /serviceChat/**
+    serviceCourseManager: /serviceCourseManager/**
+    serviceHomework: /serviceHomework/**
+    serviceUserCenter: /serviceUserCenter/**
+
 eureka:
   client:
     registry-fetch-interval-seconds: 5

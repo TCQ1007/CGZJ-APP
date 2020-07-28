@@ -13,10 +13,11 @@
         <module>cloud-registry</module>
         <module>gateway</module>
         <module>All-Test</module>
-        <module>usercenter</module>
-        <module>course-provider</module>
-        <module>topic-provider</module>
-        <module>chat-provider</module>
+        <module>serviceCourseManager</module>
+        <module>serviceChat</module>
+        <module>serviceHomework</module>
+        <module>serviceUserCenter</module>
+
 
     </modules>
 

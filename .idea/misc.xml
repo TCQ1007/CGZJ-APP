@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/serviceHomework/pom.xml" />
+        <option value="$PROJECT_DIR$/All-Test/AllTest-service/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceHomework/homework-service/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceHomework/homework-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceCourseManager/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceCourseManager/course-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/All-Test/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceChat/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/All-Test/AllTest-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceCourseManager/course-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceUserCenter/userCenter-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceUserCenter/userCenter-service/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceChat/chat-service/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceChat/chat-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceUserCenter/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/AllTest-service/pom.xml" />
-        <option value="$PROJECT_DIR$/chatservice/pom.xml" />
-        <option value="$PROJECT_DIR$/course-provider/course-interface/course-service/pom.xml" />
-        <option value="$PROJECT_DIR$/topiv-service/pom.xml" />
-      </set>
-    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK" />
 </project>

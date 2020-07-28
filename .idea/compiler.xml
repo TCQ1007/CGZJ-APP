@@ -10,16 +10,17 @@
         <module name="AllTest-interface" />
         <module name="AllTest-service" />
         <module name="chat-interface" />
-        <module name="chat-provider" />
         <module name="chat-service" />
         <module name="cloud-registry" />
+        <module name="course-interface" />
         <module name="course-service" />
         <module name="gateway" />
-        <module name="topic-interface" />
-        <module name="topic-service" />
+        <module name="homework-interface" />
+        <module name="homework-service" />
         <module name="topiv-service" />
-        <module name="usercenter-interface" />
-        <module name="usercenter-service" />
+        <module name="userCenter-interface" />
+        <module name="userCenter-service" />
+        <module name="userCenterInterface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,13 +37,23 @@
       <module name="course-provider" target="1.8" />
       <module name="course-service" target="1.8" />
       <module name="gateway" target="1.8" />
+      <module name="homework-interface" target="1.8" />
+      <module name="homework-service" target="1.8" />
+      <module name="serviceChat" target="1.8" />
+      <module name="serviceCourseManager" target="1.8" />
+      <module name="serviceHomework" target="1.8" />
+      <module name="serviceusercenter" target="1.8" />
+      <module name="serviceUserCenter" target="1.8" />
       <module name="topic-interface" target="1.8" />
       <module name="topic-provider" target="1.8" />
       <module name="topic-service" target="1.8" />
       <module name="topiv-service" target="1.8" />
       <module name="usercenter" target="1.8" />
+      <module name="userCenter-interface" target="1.8" />
       <module name="usercenter-interface" target="1.8" />
+      <module name="userCenter-service" target="1.8" />
       <module name="usercenter-service" target="1.8" />
+      <module name="userCenterInterface" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

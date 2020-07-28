@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.cdut.mapper.UserMapper">
-    <select id="findById" resultType="com.cdut.pojo.User" parameterType="java.lang.Integer">
+<mapper namespace="com.course.mapper.UserMapper">
+    <select id="findById" resultType="com.course.pojo.User" parameterType="java.lang.Integer">
         select * from user where id=#{id}
     </select>
-    <select id="findAll" resultType="com.cdut.pojo.User">
+    <select id="findAll" resultType="com.course.pojo.User">
         select * from user
     </select>
 
     <delete id="deleteById" parameterType="java.lang.Integer">
         delete from user where id=#{id}
     </delete>
-    <select id="findByName" resultType="com.cdut.pojo.User" parameterType="java.lang.String">
+    <select id="findByName" resultType="com.course.pojo.User" parameterType="java.lang.String">
         select * from user where username=#{username}
     </select>
-    <insert id="addUser" parameterType="com.cdut.pojo.User">
+    <insert id="addUser" parameterType="com.course.pojo.User">
         insert  into user (username,password,sex) VALUES (#{username},#{password},#{sex})
     </insert>
     <delete id="delUser" parameterType="java.lang.Integer">
         delete from user where id = #{id}
     </delete>
 
-    <update id="updateUser" parameterType="com.cdut.pojo.User">
+    <update id="updateUser" parameterType="com.course.pojo.User">
         update user  <set>
 
         <if test="username != null">username=#{username},</if>
