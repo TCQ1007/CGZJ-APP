@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/All-Test/All-Test.iml" filepath="$PROJECT_DIR$/All-Test/All-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/All-Test/AllTest-interface/AllTest-interface.iml" filepath="$PROJECT_DIR$/All-Test/AllTest-interface/AllTest-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/All-Test/AllTest-service/AllTest-service.iml" filepath="$PROJECT_DIR$/All-Test/AllTest-service/AllTest-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CGZJ-APP.iml" filepath="$PROJECT_DIR$/.idea/CGZJ-APP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceChat/chat-interface/chat-interface.iml" filepath="$PROJECT_DIR$/serviceChat/chat-interface/chat-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceChat/chat-service/chat-service.iml" filepath="$PROJECT_DIR$/serviceChat/chat-service/chat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-registry/cloud-registry.iml" filepath="$PROJECT_DIR$/cloud-registry/cloud-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceCourseManager/course-interface/course-interface.iml" filepath="$PROJECT_DIR$/serviceCourseManager/course-interface/course-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceCourseManager/course-service/course-service.iml" filepath="$PROJECT_DIR$/serviceCourseManager/course-service/course-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceHomework/homework-interface/homework-interface.iml" filepath="$PROJECT_DIR$/serviceHomework/homework-interface/homework-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceHomework/homework-service/homework-service.iml" filepath="$PROJECT_DIR$/serviceHomework/homework-service/homework-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceChat/serviceChat.iml" filepath="$PROJECT_DIR$/serviceChat/serviceChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceCourseManager/serviceCourseManager.iml" filepath="$PROJECT_DIR$/serviceCourseManager/serviceCourseManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceHomework/serviceHomework.iml" filepath="$PROJECT_DIR$/serviceHomework/serviceHomework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceUserCenter/serviceUserCenter.iml" filepath="$PROJECT_DIR$/serviceUserCenter/serviceUserCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceUserCenter/userCenter-interface/userCenter-interface.iml" filepath="$PROJECT_DIR$/serviceUserCenter/userCenter-interface/userCenter-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceUserCenter/userCenter-service/userCenter-service.iml" filepath="$PROJECT_DIR$/serviceUserCenter/userCenter-service/userCenter-service.iml" />
     </modules>
   </component>
 </project>

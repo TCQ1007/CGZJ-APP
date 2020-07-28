@@ -1,4 +1,6 @@
-package service.impl;
+package service;
+
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -7,5 +9,6 @@ package service.impl;
  * Description:
  * Version: V1.0（版本）
  */
-public class UserServiceImpl {
+public interface CourseService {
+    public List<Course> queryUsers();
 }
