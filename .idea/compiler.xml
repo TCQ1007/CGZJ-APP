@@ -7,24 +7,42 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="topic-service" />
-        <module name="gateway" />
-        <module name="cloud-registry" />
         <module name="AllTest-interface" />
+        <module name="AllTest-service" />
         <module name="chat-interface" />
         <module name="chat-provider" />
-        <module name="course-service" />
-        <module name="topic-interface" />
         <module name="chat-service" />
+        <module name="cloud-registry" />
+        <module name="course-service" />
+        <module name="gateway" />
+        <module name="topic-interface" />
+        <module name="topic-service" />
+        <module name="topiv-service" />
         <module name="usercenter-interface" />
         <module name="usercenter-service" />
-        <module name="AllTest-service" />
-        <module name="topiv-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="All-Test" target="1.8" />
+      <module name="AllTest-interface" target="1.8" />
+      <module name="AllTest-service" target="1.8" />
+      <module name="CGZJAPP" target="1.8" />
+      <module name="chat-interface" target="1.8" />
+      <module name="chat-provider" target="1.8" />
+      <module name="chat-service" target="1.8" />
       <module name="chatservice" target="1.8" />
+      <module name="cloud-registry" target="1.8" />
+      <module name="course-interface" target="1.8" />
+      <module name="course-provider" target="1.8" />
+      <module name="course-service" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="topic-interface" target="1.8" />
+      <module name="topic-provider" target="1.8" />
+      <module name="topic-service" target="1.8" />
       <module name="topiv-service" target="1.8" />
+      <module name="usercenter" target="1.8" />
+      <module name="usercenter-interface" target="1.8" />
+      <module name="usercenter-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
