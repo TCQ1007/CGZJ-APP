@@ -9,6 +9,7 @@ zuul:
     alltest: /All-Test/**
     usercenter: /usercenter/**
     chat-provider: /chat-provider/**
+    topicprovider: /topicprovider/**
 eureka:
   client:
     registry-fetch-interval-seconds: 5
