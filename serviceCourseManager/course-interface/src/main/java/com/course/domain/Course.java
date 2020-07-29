@@ -11,18 +11,31 @@ import java.sql.Timestamp;
 
 public class Course {
 
+    //课程的id
     private Integer cid;
+    //课程名
     private String cname;
+    //课程的简介
     private String csummary;
+    //教师的id
     private Integer cteacherid;
+    //课程图片的路径
     private String cimage;
+    //课程邀请码
     private String cinvitcode;
+    //课程的类型
     private String ctype;
+    //课程的直播地址
     private String cliveurl;
+    //课程的直播时间
     private Timestamp clivetime;
+    //课程是否正在直播
     private Integer cisliving;
+    //课程是否为私有
     private Integer cisprivate;
+    //课程的难易程度
     private String cdegree;
+    //课程的创建时间
     private Timestamp ccreatetime;
 
     public Course() {
