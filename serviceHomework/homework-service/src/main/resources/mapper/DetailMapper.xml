@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<!--namespace映射文件和接口的调用关系-->
+<mapper namespace="com.homework.mapper.DetailMapper">
+    <!--id:接口中的方法名 resultType:返回值类型 parameterType：参数类型-->
+    <select id="insertAnswer"  parameterType="com.cgzj.pojo.Detail">
+        insert into c_homework_details (userid, homeworkid, jtopicid, ctopicid, courseid, useranswer,  topictype) values (#{userid}, #{homeworkid}, #{jtopicid}, #{ctopicid}, #{courseid}, #{useranswer}, #{topictype})-->
+    </select>
+</mapper>

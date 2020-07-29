@@ -3,117 +3,94 @@ package com.cgzj.pojo;
 import java.sql.Timestamp;
 
 public class Homework {
-    private int hid;
-    private String type;   //考试还是试卷
-    private String hname;
-    private Timestamp createTime;
-    private Timestamp starttime;
-    private Timestamp endTime;
-    private int totalTime;
-    private String state;
-    private int cid;
+    private int hwid;
+    private String hktype;   //考试还是试卷
+    private String hwname;
+    private Timestamp hwcreateTime;
+    private Timestamp hwstarttime;
+    private Timestamp hwendTime;
+    private int hwtotalTime;
+    private String hwstate;
+    private int hkofcourseid;
+    private int hwpaperid;
 
-    public String getType() {
-        return type;
+    public int getHwid() {
+        return hwid;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setHwid(int hwid) {
+        this.hwid = hwid;
     }
 
-    public Timestamp getCreateTime() {
-        return createTime;
+    public String getHktype() {
+        return hktype;
     }
 
-    public void setCreateTime(Timestamp createTime) {
-        this.createTime = createTime;
+    public void setHktype(String hktype) {
+        this.hktype = hktype;
     }
 
-    public Timestamp getStarttime() {
-        return starttime;
+    public String getHwname() {
+        return hwname;
     }
 
-    public void setStarttime(Timestamp starttime) {
-        this.starttime = starttime;
+    public void setHwname(String hwname) {
+        this.hwname = hwname;
     }
 
-    public Timestamp getEndTime() {
-        return endTime;
+    public Timestamp getHwcreateTime() {
+        return hwcreateTime;
     }
 
-    public void setEndTime(Timestamp endTime) {
-        this.endTime = endTime;
+    public void setHwcreateTime(Timestamp hwcreateTime) {
+        this.hwcreateTime = hwcreateTime;
     }
 
-    public int getTotalTime() {
-        return totalTime;
+    public Timestamp getHwstarttime() {
+        return hwstarttime;
     }
 
-    public void setTotalTime(int totalTime) {
-        this.totalTime = totalTime;
+    public void setHwstarttime(Timestamp hwstarttime) {
+        this.hwstarttime = hwstarttime;
     }
 
-    public int getCid() {
-        return cid;
+    public Timestamp getHwendTime() {
+        return hwendTime;
     }
 
-    public void setCid(int cid) {
-        this.cid = cid;
+    public void setHwendTime(Timestamp hwendTime) {
+        this.hwendTime = hwendTime;
     }
 
-    public int getPaperid() {
-        return paperid;
+    public int getHwtotalTime() {
+        return hwtotalTime;
     }
 
-    public void setPaperid(int paperid) {
-        this.paperid = paperid;
+    public void setHwtotalTime(int hwtotalTime) {
+        this.hwtotalTime = hwtotalTime;
     }
 
-    private int paperid;
-
-    public int getHid() {
-        return hid;
+    public String getHwstate() {
+        return hwstate;
     }
 
-    public void setHid(int hid) {
-        this.hid = hid;
+    public void setHwstate(String hwstate) {
+        this.hwstate = hwstate;
     }
 
-
-
-    public String getHname() {
-        return hname;
+    public int getHkofcourseid() {
+        return hkofcourseid;
     }
 
-    public void setHname(String hname) {
-        this.hname = hname;
+    public void setHkofcourseid(int hkofcourseid) {
+        this.hkofcourseid = hkofcourseid;
     }
 
-
-    public String getState() {
-        return state;
+    public int getHwpaperid() {
+        return hwpaperid;
     }
 
-    public void setState(String state) {
-        this.state = state;
+    public void setHwpaperid(int hwpaperid) {
+        this.hwpaperid = hwpaperid;
     }
-
-
-    @Override
-    public String toString() {
-        return "Homework{" +
-                "hid=" + hid +
-                ", type='" + type + '\'' +
-                ", hname='" + hname + '\'' +
-                ", createTime=" + createTime +
-                ", starttime=" + starttime +
-                ", endTime=" + endTime +
-                ", totalTime=" + totalTime +
-                ", state='" + state + '\'' +
-                ", cid=" + cid +
-                ", paperid=" + paperid +
-                '}';
-    }
-
-
 }

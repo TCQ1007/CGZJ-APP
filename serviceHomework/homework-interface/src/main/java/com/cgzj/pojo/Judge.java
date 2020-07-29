@@ -1,76 +1,67 @@
 package com.cgzj.pojo;
-
+//判断题表
 public class Judge {
-    private int jid;
-    private String jquestion;
-    private String janswer;
-    private String type;
-    private String answerA;
-    private String answerB;
-    private String answerC;
-    private String answerD;
+    private int judgeid;
+    private int homeworkid;
+    private int topicordernum;
+    private int topicscore;
+    private String judgetitle; //题目
+    private String judgeanswer;
+    private String judgetype; //判断 单选 还是多选
 
-    public int getJid() {
-        return jid;
+    public int getJudgeid() {
+        return judgeid;
     }
 
-    public void setJid(int jid) {
-        this.jid = jid;
+    public void setJudgeid(int judgeid) {
+        this.judgeid = judgeid;
     }
 
-    public String getJquestion() {
-        return jquestion;
+    public int getHomeworkid() {
+        return homeworkid;
     }
 
-    public void setJquestion(String jquestion) {
-        this.jquestion = jquestion;
+    public void setHomeworkid(int homeworkid) {
+        this.homeworkid = homeworkid;
     }
 
-    public String getJanswer() {
-        return janswer;
+    public int getTopicordernum() {
+        return topicordernum;
     }
 
-    public void setJanswer(String janswer) {
-        this.janswer = janswer;
+    public void setTopicordernum(int topicordernum) {
+        this.topicordernum = topicordernum;
     }
 
-    public String getType() {
-        return type;
+    public int getTopicscore() {
+        return topicscore;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setTopicscore(int topicscore) {
+        this.topicscore = topicscore;
     }
 
-    public String getAnswerA() {
-        return answerA;
+    public String getJudgetitle() {
+        return judgetitle;
     }
 
-    public void setAnswerA(String answerA) {
-        this.answerA = answerA;
+    public void setJudgetitle(String judgetitle) {
+        this.judgetitle = judgetitle;
     }
 
-    public String getAnswerB() {
-        return answerB;
+    public String getJudgeanswer() {
+        return judgeanswer;
     }
 
-    public void setAnswerB(String answerB) {
-        this.answerB = answerB;
+    public void setJudgeanswer(String judgeanswer) {
+        this.judgeanswer = judgeanswer;
     }
 
-    public String getAnswerC() {
-        return answerC;
+    public String getJudgetype() {
+        return judgetype;
     }
 
-    public void setAnswerC(String answerC) {
-        this.answerC = answerC;
-    }
-
-    public String getAnswerD() {
-        return answerD;
-    }
-
-    public void setAnswerD(String answerD) {
-        this.answerD = answerD;
+    public void setJudgetype(String judgetype) {
+        this.judgetype = judgetype;
     }
 }

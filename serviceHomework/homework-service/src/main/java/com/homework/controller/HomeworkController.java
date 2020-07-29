@@ -29,7 +29,4 @@ public class HomeworkController {
         return homeworkService.getHomeworkInfo(hid);
     }
 
-
-
-
 }
