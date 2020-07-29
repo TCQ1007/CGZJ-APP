@@ -27,6 +27,7 @@
       <module name="All-Test" target="1.8" />
       <module name="AllTest-interface" target="1.8" />
       <module name="AllTest-service" target="1.8" />
+      <module name="CGZJ-APP" target="1.8" />
       <module name="CGZJAPP" target="1.8" />
       <module name="chat-interface" target="1.8" />
       <module name="chat-provider" target="1.8" />
@@ -59,17 +60,17 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="All-Test" options="" />
-      <module name="AllTest-interface" options="-parameters" />
-      <module name="AllTest-service" options="-parameters" />
-      <module name="chat-interface" options="-parameters" />
+      <module name="AllTest-interface" options="" />
+      <module name="AllTest-service" options="" />
+      <module name="chat-interface" options="" />
       <module name="chat-provider" options="-parameters" />
-      <module name="chat-service" options="-parameters" />
+      <module name="chat-service" options="" />
       <module name="chatservice" options="-parameters" />
-      <module name="cloud-registry" options="-parameters" />
-      <module name="course-interface" options="-parameters" />
+      <module name="cloud-registry" options="" />
+      <module name="course-interface" options="" />
       <module name="course-provider" options="-parameters" />
-      <module name="course-service" options="-parameters" />
-      <module name="gateway" options="-parameters" />
+      <module name="course-service" options="" />
+      <module name="gateway" options="" />
       <module name="topic-interface" options="-parameters" />
       <module name="topic-provider" options="-parameters" />
       <module name="topic-service" options="-parameters" />
