@@ -17,6 +17,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("course")
+//测试11
 public class CourseController {
         @Autowired(required = false)
         private CourseService courseService;
