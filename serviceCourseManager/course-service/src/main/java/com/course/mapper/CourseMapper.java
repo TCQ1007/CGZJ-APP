@@ -6,4 +6,5 @@ package com.course.mapper;
  *文件说明： 这个类是用来创建关于课程查询接口的说明的
  */
 public class CourseMapper {
+    123
 }
