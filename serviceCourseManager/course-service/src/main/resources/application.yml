@@ -28,7 +28,7 @@ spring:
 
   #mybatis整合
 mybatis:
-    type-aliases-package: com.course.pojo
+    type-aliases-package: com.course.domain
     mapper-locations: classpath:mapper/*.xml
 eureka:
   client:
