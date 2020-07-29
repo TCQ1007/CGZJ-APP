@@ -22,6 +22,7 @@ public class CourseController {
         @Autowired(required = false)
         private CourseService courseService;
 //测试
+    //测试3
         //http://localhost:8088/user/queryUsers
         //返回的是json数据：List<User>
 
