@@ -1,6 +1,8 @@
 package com.course.service;
 
-import com.course.pojo.Course;
+
+
+import com.course.domain.Course;
 
 import java.util.List;
 
